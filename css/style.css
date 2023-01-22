@@ -165,7 +165,25 @@ html {
 #nav .navmdl .container .icon span {
   color: var(--main-color);
   font-weight: 400;
+
 }
+#nav .navmdl .container .icon .cart {
+  position: relative;
+}
+#nav .navmdl .container .icon .cart p {
+  position: absolute;
+  background-color: #EB5757;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  top: -14px;
+    right: -5px;
+}
+
+
+
 
 
 
