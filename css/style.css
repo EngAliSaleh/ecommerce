@@ -116,6 +116,9 @@ html {
 
 }
 
+.show {
+  display: block !important;
+}
 
 #nav .navmdl .container .form {
   position: relative;
@@ -623,7 +626,7 @@ section .tow-img img {
   height: 1.5rem;
 }
 
-
+/**************************************/
 
 #checkout .checkout-form form .mid-title {
   padding: 8px;
@@ -644,11 +647,11 @@ section .tow-img img {
   padding: 15px;
 }
 
-#checkout .checkout-form form .payment input[type="radio"] {
-  display: none;
+#checkout .checkout-form  form .payment input[type="radio"] {
+  display: none ;
 }
 
-#checkout .checkout-form form .payment input[type="radio"]:checked+label {
+#checkout .checkout-form  form .payment input[type="radio"]:checked + label {
   border: 2px solid var(--main-color);
 }
 
@@ -668,6 +671,8 @@ section .tow-img img {
   width: 100%;
   border: none;
   color: #828282;
+  background-color: #F2F2F2;
+  padding: 5px;
 }
 
 #payment-method .visa .row .col-md-2 {
