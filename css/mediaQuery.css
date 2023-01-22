@@ -1,0 +1,46 @@
+
+ 
+@media (max-width:768px) {
+    #nav .navmdl {
+      position: relative;
+    }
+  
+    #nav .navmdl .container .form {
+      position: absolute;
+      top: 90%;
+      left: 0;
+      width: 100%;
+  
+    }
+    .navmdl .container .icon .cart img {
+      width: 25px;
+      margin-bottom: 5px;
+  }
+
+  .cart-details1 {
+    text-align: end;
+    padding-bottom: 90px;
+    padding: 18px 30px;
+}
+.cart-details2 {
+  text-align: end;
+  padding-bottom: 90px;
+  padding: 18px 30px;
+}
+
+  
+
+
+  footer {
+    margin-bottom: 100px;
+  }
+  /**************************************/
+  
+  }
+
+  @media (min-width:992px) {
+    .sub_container {
+      padding: 50px 140px !important;
+    }
+  
+  }

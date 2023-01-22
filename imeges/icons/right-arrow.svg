@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1_55)">
+<circle cx="32" cy="27" r="27" fill="white"/>
+<g clip-path="url(#clip0_1_55)">
+<path d="M36.7247 26.1001C36.9006 26.2757 36.9995 26.514 36.9997 26.7626V27.2376C36.9968 27.4856 36.8983 27.7229 36.7247 27.9001L30.2997 34.3126C30.2416 34.3711 30.1725 34.4176 30.0963 34.4494C30.0202 34.4811 29.9385 34.4974 29.856 34.4974C29.7735 34.4974 29.6918 34.4811 29.6156 34.4494C29.5394 34.4176 29.4703 34.3711 29.4122 34.3126L28.5247 33.4251C28.4665 33.368 28.4203 33.3 28.3887 33.2248C28.3571 33.1497 28.3409 33.069 28.3409 32.9876C28.3409 32.9061 28.3571 32.8254 28.3887 32.7503C28.4203 32.6752 28.4665 32.6071 28.5247 32.5501L34.0897 27.0026L28.5247 21.4501C28.4661 21.392 28.4196 21.3228 28.3879 21.2467C28.3562 21.1705 28.3398 21.0888 28.3398 21.0063C28.3398 20.9238 28.3562 20.8421 28.3879 20.7659C28.4196 20.6898 28.4661 20.6207 28.5247 20.5626L29.4122 19.6876C29.4703 19.629 29.5394 19.5825 29.6156 19.5508C29.6918 19.519 29.7735 19.5027 29.856 19.5027C29.9385 19.5027 30.0202 19.519 30.0963 19.5508C30.1725 19.5825 30.2416 19.629 30.2997 19.6876L36.7247 26.1001Z" fill="#242424"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_55" x="0" y="0" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_55"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_55" result="shape"/>
+</filter>
+<clipPath id="clip0_1_55">
+<rect width="30" height="30" fill="white" transform="translate(17 12)"/>
+</clipPath>
+</defs>
+</svg>
