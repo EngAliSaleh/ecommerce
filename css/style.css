@@ -254,7 +254,7 @@ nav li.active a:hover {
 
 }
 
-#mobile-categories {
+#mobile-registary {
   background-color: white;
   border-radius: 20px 20px 0px 0px;
   padding: 70px 0;
@@ -267,16 +267,52 @@ nav li.active a:hover {
 }
 
 
-#mobile-categories form input {
+#mobile-registary form input {
   background: #F2F2F2;
   border-radius: 4px;
   border: 0;
 }
 
-#mobile-categories form {
+#mobile-registary form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+}
+
+/**************************************/
+
+.nav-mobile-categories {
+  background-color: #FFFFFF;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0 100px 0;
+  z-index: 98;
+  box-shadow: 0px -7px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px 15px 0px 0px;
+  display: none;
+}
+
+
+
+.nav-mobile-categories ul {
+  list-style: none;
+  padding: 0 5px;
+  border-radius: 7px;
+}
+.nav-mobile-categories ul li:first-child {
+  text-align: center;
+  padding-right: 0;
+}
+.nav-mobile-categories ul li {
+  padding: 10px 10px;
+}
+.nav-mobile-categories ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333333;
 
 }
 
