@@ -98,6 +98,36 @@ html {
   font-weight: 400;
 }
 
+.user .user-list  {
+  list-style-type: none;
+  background: #FFFFFF;
+/* Gray 5 */
+
+border: 1px solid #E0E0E0;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+.user .user-list .list {
+  padding: 10px 0;
+}
+.user .user-list li a {
+  text-decoration: none;
+  color: black;
+ 
+}
+.user .user-list li a.active {
+  color: #EB5757;
+}
+.user .user-list li {
+  border-bottom: 1px solid rgba(234, 234, 234, 1) ;
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+ .user-list {
+  display: none;
+}
+
 /**************************************/
 
 #nav .navmdl .container .form span {
@@ -322,8 +352,8 @@ nav li.active a:hover {
 }
 
 .main-section .section-title {
-  border-right: 3px solid var(--main-color);
-  padding: 5px;
+
+
   margin-bottom: 20px;
 
 }
@@ -331,6 +361,8 @@ nav li.active a:hover {
 .main-section .section-title p {
   color: var(--main-color);
   margin-bottom: 0;
+  border-right: 3px solid var(--main-color);
+  padding: 5px;
 
 
 }
@@ -344,6 +376,51 @@ nav li.active a:hover {
   color: var(--main-color);
 }
 
+/* //////////////////////////// */
+.order {
+  font-size: 15px;
+}
+
+.order-radio {
+  position: absolute;
+  z-index: 100;
+  margin: 8px 0;
+  left: 10px;
+  padding: 20px;
+  color: #828282;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.order-radio label {
+  padding-right: 10px;
+}
+
+.order-radio {
+  display: none;
+}
+.order-radio div {
+  padding: 10px 10px;
+  border-bottom: 1px solid #E0E0E0;
+  width: 191px;
+}
+
+
+.ctergories-inputs input[type="radio"] {
+  border:2px solid white;
+  box-shadow:0 0 0 1px var(--main-color);
+  border-radius:50%;
+  width:12px;
+  height:12px;
+  background-color:#fff;
+
+
+}
+.order-radio input[type="radio"]:checked{
+ background-color:var(--main-color);
+}
+/* //////////////////////////// */
+
 #products .product {
   background: #FFFFFF;
   border: 1px solid #BDBDBD;
@@ -351,6 +428,8 @@ nav li.active a:hover {
   padding: 10px;
   position: relative;
 }
+
+/* //////////////////////////// */
 
 #products .product .old-price {
   position: relative;

@@ -49,11 +49,25 @@
               </a>
             </div>
           </div>
-          <div class="user">
-            <a href="#" class="text-decoration-none">
+          <div class="user position-relative" id="user">
+            <a href="#" class="text-decoration-none" >
               <img class="me-1 " style="width: 15%;" src="imeges/pepole/Ellipse 5 (1).svg" alt="">
               <span style="color: black;">Ahmed Alshanti <i class="bi bi-chevron-down"></i></span>
             </a>
+        
+          
+                <ul class="user-list position-absolute mt-2" style="z-index: 100; " id="user-list" >
+                  <div class="list">
+                  <li><a href="#" alt=""><img class="me-2" src="imeges/user/user1.svg" alt="">الإشعارات</a></li>
+                  <li><a href="#"><img class="me-2"  src="imeges/user/user2.svg" alt="">الطلبات</a></li>
+                  <li><a href="#"><img class="me-2"   src="imeges/user/user3.svg" alt="">طلبات بانتظار الدفع</a></li>
+                  <li><a href="#"><img class="me-2"  src="imeges/user/user4.svg" alt="">تقيم المتجر و المنتجات</a></li>
+                  <li><a href="#"><img class="me-2"  src="imeges/user/user5.svg" alt="">حسابي</a></li>
+                  <li><a class="active" href="#"><img class="me-2"  src="imeges/user/user6.svg" alt="">تسجيل الخروج</a></li>
+                  </div>
+                </ul>
+         
+          
           </div>
         </div>
       </div>
@@ -311,15 +325,15 @@
           </a>
         </div>
         <div class="more">
-          <a href="#" class=" d-flex flex-column align-items-center">
-            <img class=" w-25 my-2" src="imeges/icons/more.svg" alt="">
+          <a href="#" class=" d-flex flex-column align-items-center" id="categories">
+            <img class=" w-25 my-2 " src="imeges/icons/more.svg" alt="">
             <span>فئات المنتجات</span>
           </a>
         </div>
         <div class="more">
-          <a href="#" class=" d-flex flex-column align-items-center">
+          <a  style="cursor: pointer;"  class=" d-flex flex-column align-items-center" id="regiest">
             <img class=" w-25 my-1" src="imeges/icons/green-user.svg">
-            <span>تسجيل الدخول</span>
+            <span >تسجيل الدخول</span>
           </a>
         </div>
 
@@ -328,20 +342,35 @@
   </div>
 
 
-  <div id="mobile-categories" class="d-none d-md-none">
+  <div id="mobile-registary" class="d-none d-md-none">
     <div class="container">
-      <div class="d-flex flex-column align-items-center justify-content-center mb-5">
-        <img class="w-25 mb-2" src="imeges/icons/user-img.svg" alt="">
-        <span class="fs-2">تسجيل الدخول</span>
+      <div  class="d-flex flex-column align-items-center justify-content-center mb-5">
+        <img  class="w-25 mb-2" src="imeges/icons/user-img.svg" alt="">
+        <span  class="fs-2">تسجيل الدخول</span>
       </div>
       <div class="flex-grow-1 mb-5 d-flex ">
-        <form action="">
-          <label for="email" class="fs-5">البريد الإلكتروني</label>
-          <input type="text" id="#email" style="width: 380px;padding: 5px 0;" placeholder="أدخل عنوان بريدك الإلكرتوني">
+        <form action="#">
+          <label for="email" class="fs-5 mb-3">البريد الإلكتروني</label>
+          <input type="text" id="email" style="width: 380px;padding: 5px 0;" placeholder="أدخل عنوان بريدك الإلكرتوني">
         </form>
       </div>
     </div>
   </div>
+
+  <div class="nav-mobile-categories" id="nav-mobile-categories">
+    <div class="container">
+      <ul>
+        <li class="d-flex align-items-center justify-content-center "><a href="#"  style="color:#5B8E19  ; font-size: 20px; font-weight: bolder;"> فئات المنتجات </a>
+        </li>
+        <li style="background-color: #5B8E19;"><a style="color: white;" href="#">جميع التصنيفات</a></li>
+        <li ><a href="#">بقالة</a></li>
+        <li><a href="#">المجمدات</a></li>
+        <li><a href="#">المشروبات والعصائر</a></li>
+        <li><a href="#">المكملات الغذائية وتقوية المناعة</a></li>
+        <li><a href="#">الإفطار و السانك و البذوبر</a></li>
+      </ul>
+    </div>
+</div>
 
   
 
