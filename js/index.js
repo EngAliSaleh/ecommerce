@@ -1,3 +1,4 @@
+document.oncontextmenu = function(){return false;}
 let regiest = document.getElementById('regiest');
 let navMobile = document.getElementById('mobile-registary');
 let categories = document.getElementById('categories');
@@ -31,6 +32,10 @@ userdiv.onclick = function () {
 visa_input.onclick = function () {
     visamethod.classList.toggle('show');
 }
+
+
+   document.oncontextmenu = function(){return false;}
+
 
 
 
